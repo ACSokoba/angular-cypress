@@ -1,4 +1,5 @@
 # AngularCypress
+A quick example to get my hands on e2e testing with cypress framework
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
 
