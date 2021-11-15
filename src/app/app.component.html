@@ -1,3 +1,16 @@
-<h1>
-  {{title}}
-</h1>
+<div class="container">
+  <h1>
+    This is my title
+  </h1>
+  <div class="my-2" *ngIf="showCounter">
+    This is a counter {{total}}
+  </div>
+  <div class="my-2">
+    <button (click)=increment() style="border: black solid 2px; background-color: whitesmoke;">
+      Increment
+    </button>
+    <button (click)=changeCounterDisplay() style="border: black solid 2px; background-color: whitesmoke;">
+      Hide / Show counter
+    </button>
+  </div>
+</div> 
